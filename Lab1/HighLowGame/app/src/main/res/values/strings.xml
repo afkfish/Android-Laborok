@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HighLowGame</string>
+    <string name="enter_number_here_tf">Enter number here</string>
+    <string name="enter_a_name_here_et">Enter a name here</string>
+    <string name="guess_bt">Guess</string>
+    <string name="have_fun_tv">have fun :)</string>
+</resources>
