@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="btn_start">Új játék</string>
+    <string name="btn_highscore">Eredmények</string>
+    <string name="btn_about">Infó</string>
+    <string name="toast_highscore">Eredmények</string>
+    <string name="txt_about">Made by Hallgató</string>
+    <string name="title_activity_about">Az alkalmazásról</string>
+    <string name="title_activity_game">Játék</string>
+    <string name="circle_won">Kör nyert</string>
+    <string name="cross_won">X nyert</string>
+    <string name="draw">Döntetlen</string>
+</resources>
