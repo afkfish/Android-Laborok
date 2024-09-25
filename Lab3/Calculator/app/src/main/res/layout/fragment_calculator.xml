@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/consoleTextView"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-medium"
+
+            android:gravity="center_vertical|end"
+            android:text="@string/text_calculator_console"
+            android:textSize="40sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/deleteButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_delete"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/signButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_sign"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/modulo_button"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_modulo"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/operationDivisionButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_division"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/number7Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_seven"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/number8Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_eight"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/number9Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_nine"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/operationMultiplicationButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_multiplication"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/number4Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_four"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/number5Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_five"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/number6Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_six"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/operationSubtractionButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_subtraction"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/number1Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_one"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/number2Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_two"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/number3Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_three"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/operationAdditionButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_addition"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/number0Button"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_number_zero"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/commaButton"
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_come"
+            android:textSize="22sp" />
+
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/operationEquivalenceButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/button_text_equivalence"
+            android:textSize="22sp" />
+    </TableRow>
+</TableLayout>

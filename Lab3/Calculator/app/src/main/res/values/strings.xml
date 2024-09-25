@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="text_calculator_console">0</string>
+    <string name="text_operation">%1$.2f %2$s %3$.2f = %4$.2f</string>
+    <string name="button_text_delete">C</string>
+    <string name="button_text_sign">+/-</string>
+    <string name="button_text_modulo">%</string>
+    <string name="button_text_division">/</string>
+    <string name="button_text_number_seven">7</string>
+    <string name="button_text_number_eight">8</string>
+    <string name="button_text_number_nine">9</string>
+    <string name="button_text_multiplication">*</string>
+    <string name="button_text_number_four">4</string>
+    <string name="button_text_number_five">5</string>
+    <string name="button_text_number_six">6</string>
+    <string name="button_text_subtraction">-</string>
+    <string name="button_text_number_one">1</string>
+    <string name="button_text_number_two">2</string>
+    <string name="button_text_number_three">3</string>
+    <string name="button_text_addition">+</string>
+    <string name="button_text_number_zero">0</string>
+    <string name="button_text_come">,</string>
+    <string name="button_text_equivalence">=</string>
+    <string name="menu_item_title_delete">Delete</string>
+    <string name="menu_item_content_description_delete">Action to delete history</string>
+    <string name="button_text_load">Load</string>
+    <string name="app_bar_title_history">History</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
