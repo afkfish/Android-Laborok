@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Todo Room</string>
+    <string name="priority_title_low">low</string>
+    <string name="priority_title_medium">medium</string>
+    <string name="priority_title_high">high</string>
+    <string name="dialog_ok_button_text">Ok</string>
+    <string name="dialog_dismiss_button_text">Close</string>
+    <string name="textfield_label_title">Title</string>
+    <string name="textfield_label_description">Description</string>
+    <string name="list_item_supporting_text">The due date is: %1$s</string>
+    <string name="text_empty_todo_list">You haven\'t added any todos yet.</string>
+    <string name="text_null_todo_list">Null response</string>
+    <string name="text_your_todo_list">Your todos</string>
+    <string name="app_bar_title_edit_todo">Edit todo</string>
+    <string name="app_bar_title_create_todo">Create todo</string>
+    <string name="some_error_message">Error</string>
+    <string name="priority_title_none">none</string>
+</resources>
